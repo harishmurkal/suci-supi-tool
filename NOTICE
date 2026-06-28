@@ -1,0 +1,20 @@
+SUCI-SUPI Conversion Tool
+Copyright 2026 Nokia
+
+This product includes software developed at Nokia.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+This software is a research / proof-of-concept tool for evaluating
+classical, post-quantum, and hybrid SUCI protection schemes. It is not a
+production component and is not part of any 3GPP-certified product.
+
+Third-party dependencies (see go.mod for exact versions):
+
+  - golang.org/x/crypto        (BSD-3-Clause)
+  - filippo.io/edwards25519     (BSD-3-Clause)
+  - github.com/cloudflare/circl (BSD-3-Clause and others; see module LICENSE)

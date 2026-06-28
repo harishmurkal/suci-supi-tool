@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "SUCI-SUPI Conversion Tool: Classical, Post-Quantum, and Hybrid SUCI Protection for 5G"
+abstract: >-
+  A Go implementation and benchmarking tool for 5G SUCI (Subscription Concealed
+  Identifier) to SUPI conversion, supporting classical ECIES (Profiles A/B),
+  post-quantum ML-KEM (Profile C), and hybrid ML-KEM + X25519 schemes
+  (Profiles D/E/F), following 3GPP TS 33.501 and TS 33.703. Includes a load
+  generator and benchmarks for performance, memory, and SUCI-size analysis.
+type: software
+authors:
+  - family-names: Murkal
+    given-names: Harish
+    # orcid: "https://orcid.org/0000-0000-0000-0000"  # add your ORCID if available
+    affiliation: Nokia
+version: 2.3.0
+date-released: "2026-03-31"
+license: Apache-2.0
+repository-code: "https://github.com/harishmurkal/suci-supi-tool"
+url: "https://github.com/harishmurkal/suci-supi-tool"
+keywords:
+  - 5G
+  - SUCI
+  - SUPI
+  - post-quantum cryptography
+  - ML-KEM
+  - Kyber
+  - X25519
+  - ECIES
+  - hybrid cryptography
+  - 3GPP
+# After archiving a tagged release on Zenodo, add the minted DOI here, e.g.:
+# doi: "10.5281/zenodo.XXXXXXX"

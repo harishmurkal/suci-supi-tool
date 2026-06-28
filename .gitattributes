@@ -1,0 +1,16 @@
+# Normalize line endings: LF in the repository for text files.
+* text=auto eol=lf
+
+# Go and shell tooling require LF.
+*.go text eol=lf
+*.sh text eol=lf
+*.mod text eol=lf
+*.sum text eol=lf
+
+# Keep Windows scripts as CRLF.
+*.ps1 text eol=crlf
+
+# Treat key material and binaries as binary (defense in depth).
+*.pem binary
+*.der binary
+*.key binary

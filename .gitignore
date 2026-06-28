@@ -1,0 +1,39 @@
+# Ignore build outputs
+build/
+suci-supi-tool
+suci-supi-tool.exe
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary and coverage
+*.test
+*.out
+coverage.txt
+coverage.html
+
+# Go workspace files
+go.work
+go.work.sum
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Key files (security)
+*.pem
+*.key
+test-keys/
+test-keys-*/
+
+# Environment files
+.env
+.env.local
