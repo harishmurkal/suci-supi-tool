@@ -9,8 +9,8 @@ abstract: >-
   generator and benchmarks for performance, memory, and SUCI-size analysis.
 type: software
 authors:
-  - family-names: Muralidhara
-    given-names: Harish
+  - family-names: Pillai
+    given-names: Harish Muralidhara
     orcid: "https://orcid.org/0009-0004-9541-8764"
     affiliation: Nokia
 version: 2.3.0

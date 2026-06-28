@@ -762,13 +762,13 @@ This software is permanently archived on Zenodo with a DOI, and GitHub renders a
 
 Suggested IEEE-style reference:
 
-> H. Muralidhara, *SUCI-SUPI Conversion Tool: Classical, Post-Quantum, and Hybrid SUCI Protection for 5G*, version 2.3.0. Zenodo, 2026. doi: 10.5281/zenodo.20998143.
+> H. M. Pillai, *SUCI-SUPI Conversion Tool: Classical, Post-Quantum, and Hybrid SUCI Protection for 5G*, version 2.3.0. Zenodo, 2026. doi: 10.5281/zenodo.20998143.
 
 BibTeX:
 
 ```bibtex
-@software{muralidhara_suci_supi_tool_2026,
-  author    = {Muralidhara, Harish},
+@software{pillai_suci_supi_tool_2026,
+  author    = {Pillai, Harish Muralidhara},
   title     = {{SUCI-SUPI Conversion Tool: Classical, Post-Quantum, and Hybrid SUCI Protection for 5G}},
   version   = {2.3.0},
   publisher = {Zenodo},
