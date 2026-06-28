@@ -1,5 +1,8 @@
 # SUCI-SUPI Conversion Tool
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20998143.svg)](https://doi.org/10.5281/zenodo.20998143)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+
 A comprehensive Go implementation for 5G SUCI (Subscription Concealed Identifier) to SUPI (Subscription Permanent Identifier) conversion and vice versa, following 3GPP TS 33.501 and TS 33.703 specifications.
 
 > **Research / proof-of-concept tool.** This project exists to evaluate and benchmark classical, post-quantum, and hybrid SUCI protection schemes. It is **not** a production component and is **not** part of any 3GPP-certified product. Profiles A–C and NULL-SCHEME follow 3GPP definitions; **Profiles E, F, and G, and the ML-KEM-1024 (NIST Level 5) option for Profiles C–F, are tool extensions and are not 3GPP-standardized.** Do not use it to protect real subscriber identities.
@@ -751,15 +754,33 @@ When adding new features (e.g., PQC support):
 
 ## How to Cite
 
-If you use this tool or its benchmarking results, please cite it. GitHub renders a
-"Cite this repository" button from [CITATION.cff](CITATION.cff). A suggested IEEE-style
-reference:
+If you use this tool or its benchmarking results, please cite the archived release.
+This software is permanently archived on Zenodo with a DOI, and GitHub renders a
+"Cite this repository" button from [CITATION.cff](CITATION.cff).
 
-> H. Murkal, *SUCI-SUPI Conversion Tool: Classical, Post-Quantum, and Hybrid SUCI Protection for 5G*, version 2.3.0, 2026. [Online]. Available: https://github.com/harishmurkal/suci-supi-tool
+**DOI:** [10.5281/zenodo.20998143](https://doi.org/10.5281/zenodo.20998143)
 
-For a stable, archival reference suitable for a journal/conference bibliography, create a
-tagged release (e.g. `v2.3.0`) and archive it on [Zenodo](https://zenodo.org) to mint a DOI,
-then cite that DOI (add it to `CITATION.cff` once minted).
+Suggested IEEE-style reference:
+
+> H. Murkal, *SUCI-SUPI Conversion Tool: Classical, Post-Quantum, and Hybrid SUCI Protection for 5G*, version 2.3.0. Zenodo, 2026. doi: 10.5281/zenodo.20998143.
+
+BibTeX:
+
+```bibtex
+@software{murkal_suci_supi_tool_2026,
+  author    = {Murkal, Harish},
+  title     = {{SUCI-SUPI Conversion Tool: Classical, Post-Quantum, and Hybrid SUCI Protection for 5G}},
+  version   = {2.3.0},
+  publisher = {Zenodo},
+  year      = {2026},
+  doi       = {10.5281/zenodo.20998143},
+  url       = {https://doi.org/10.5281/zenodo.20998143}
+}
+```
+
+The DOI above resolves to version 2.3.0 specifically. To always reference the latest
+version, use the "Cite all versions" (concept) DOI shown on the
+[Zenodo record](https://doi.org/10.5281/zenodo.20998143).
 
 ## References
 

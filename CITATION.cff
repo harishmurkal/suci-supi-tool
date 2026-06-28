@@ -14,10 +14,15 @@ authors:
     # orcid: "https://orcid.org/0000-0000-0000-0000"  # add your ORCID if available
     affiliation: Nokia
 version: 2.3.0
-date-released: "2026-03-31"
+date-released: "2026-06-28"
 license: Apache-2.0
+doi: "10.5281/zenodo.20998143"
 repository-code: "https://github.com/harishmurkal/suci-supi-tool"
 url: "https://github.com/harishmurkal/suci-supi-tool"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20998143"
+    description: "Archived release v2.3.0 on Zenodo"
 keywords:
   - 5G
   - SUCI
@@ -29,5 +34,3 @@ keywords:
   - ECIES
   - hybrid cryptography
   - 3GPP
-# After archiving a tagged release on Zenodo, add the minted DOI here, e.g.:
-# doi: "10.5281/zenodo.XXXXXXX"
